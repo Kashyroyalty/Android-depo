@@ -12,13 +12,10 @@
         android:theme="@style/Theme.Kashyprixx"
         tools:targetApi="31">
         <activity
-            android:name=".DashboardActivity"
+            android:name=".LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".RegisterActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".RelativelayoutActivity2"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,6 +23,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".LinearActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".LinearLayoutActivity2"
+            android:exported="false"></activity>
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

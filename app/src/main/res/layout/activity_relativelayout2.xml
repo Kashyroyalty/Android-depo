@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#A915C3"
+    android:layout_height="match_parent"
+    tools:context=".RelativelayoutActivity2">
+
+    <EditText
+        android:layout_marginTop="250dp"
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter email"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:layout_marginTop="325dp"
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter password"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="198dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="390dp"
+        android:text="Login" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_width="166dp"
+        android:layout_height="213dp"
+        app:srcCompat="@drawable/decor" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="175dp"
+        android:layout_height="61dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="390dp"
+        android:text="Register here" />
+
+</RelativeLayout>
